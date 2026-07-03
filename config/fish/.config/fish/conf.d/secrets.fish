@@ -1,1 +1,0 @@
-set -gx ANTHROPIC_AUTH_TOKEN "sk-fab1736c08974da29986f2fcf92548af"
