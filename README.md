@@ -49,7 +49,7 @@ Secrets (API keys, tokens) are never stored in the repository. Installers that n
 | Group | Packages |
 |-------|----------|
 | terminal | ghostty, fish, fonts |
-| tools | ssh, firewall, stow, curl |
+| tools | ssh, firewall, stow, curl, wget |
 | sync | syncthing |
 | developer | claude, git, zed |
 | media | mediaplayer |
