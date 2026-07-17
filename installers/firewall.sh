@@ -1,7 +1,8 @@
-sudo pacman -S --noconfirm --needed ufw
-sudo systemctl enable ufw
-sudo systemctl start ufw
+# [PACKAGE] UFW (Uncomplicated Firewall)
+# Simplified frontend for managing firewall rules
+#
+# https://wiki.archlinux.org/title/Uncomplicated_Firewall
 
-# allow ssh connection
-sudo ufw allow ssh
-sudo ufw enable
+sudo pacman -S --noconfirm --needed ufw
+# enable and start ufw as a system service
+sudo systemctl enable --now ufw
