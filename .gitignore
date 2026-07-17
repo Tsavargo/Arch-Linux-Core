@@ -1,1 +1,4 @@
-config/fish/.config/fish/conf.d/secrets.fish
+# Secrets and environment files (managed outside of stow)
+*-env.fish
+*-secrets.fish
+secrets*.fish
